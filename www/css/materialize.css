@@ -2557,7 +2557,7 @@ ul:not(.browser-default) > li {
 }
 
 a {
-  color: #039be5;
+  color: #ffffff;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -2660,6 +2660,13 @@ i.small {
 
 i.medium {
   font-size: 4rem;
+}
+
+i.medium2 {
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
 }
 
 i.large {
@@ -4238,6 +4245,12 @@ nav a {
   color: #fff;
 }
 
+nav a.a-custom {
+  color: #26a69a;
+  display: block;
+  margin-left: 18px;
+}
+
 nav i,
 nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
@@ -4267,6 +4280,19 @@ nav .button-collapse {
 }
 
 nav .button-collapse i {
+  height: 56px;
+  line-height: 56px;
+}
+
+nav .button-collapse2 {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
+}
+
+nav .button-collapse2 i {
   height: 56px;
   line-height: 56px;
 }
@@ -4736,6 +4762,13 @@ small {
   text-align: center;
 }
 
+.card .card-title2 {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+}
+
 .card .card-title.activator {
   cursor: pointer;
 }
@@ -4884,10 +4917,18 @@ small {
 .card .card-action {
   position: relative;
   background-color: inherit;
-  border-top: 1px solid rgb(80, 80, 80);
+  border-top: 1px solid rgb(255, 255, 255);
   padding: 16px 24px;
   text-align: center;
   font-size: large;
+}
+
+.card .card-action2 {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgb(255, 255, 255);
+  padding: 10px 10px;
+  text-align: center;
 }
 
 .card .card-action:last-child {
